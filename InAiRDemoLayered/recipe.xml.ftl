@@ -6,7 +6,7 @@
 
     <instantiate from="res/layout/main_layout.xml"
             to="${escapeXmlAttribute(resOut)}/layout/main_layout.xml" />
-    <instantiate from="res/layout/main_layout.xml"
+    <instantiate from="res/layout/another_layout.xml"
             to="${escapeXmlAttribute(resOut)}/layout/another_layout.xml" />
 
 
