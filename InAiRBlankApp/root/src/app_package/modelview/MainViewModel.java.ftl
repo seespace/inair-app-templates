@@ -12,6 +12,6 @@ import inair.data.ViewModel;
 public class ${modelViewClass} extends ViewModel {
 
   // Constructor
-  public MainModelView() {
+  public ${modelViewClass}() {
   }
 }
