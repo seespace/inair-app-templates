@@ -2,10 +2,10 @@
 <template
     format="3"
     revision="4"
-    name="inAiR - Demo Layered Application"
+    name="InAiR - Layered Application"
     minApi="17"
     minBuildApi="17"
-    description="Creates a new inair activity">
+    description="InAir App using the Layered Navigation">
 
     <category value="Activity" />
 
