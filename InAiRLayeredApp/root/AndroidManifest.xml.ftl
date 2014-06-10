@@ -10,7 +10,7 @@
     android:label="@string/app_name"
     android:icon="@drawable/ic_launcher"
     >
-    <activity android:name=".LayeredNavigation">
+    <activity android:name=".RootLayout">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <category android:name="android.intent.category.LAUNCHER"/>

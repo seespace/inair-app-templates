@@ -1,7 +1,7 @@
 package ${packageName};
 
 import android.os.Bundle;
-import inair.app.IABaseLayeredNavigation;
+import inair.app.IABaseLayeredNavigationLayout;
 
 /**
  * Main layout of application
@@ -9,7 +9,7 @@ import inair.app.IABaseLayeredNavigation;
  *
  * <p>Copyright (c) 2014 SeeSpace.co. All rights reserved.</p>
  */
-public class LayeredNavigation extends IABaseLayeredNavigation {
+public class LayeredNavigationLayout extends IABaseLayeredNavigationLayout {
 
   @Override
   public void onInitialize(Bundle bundle) {

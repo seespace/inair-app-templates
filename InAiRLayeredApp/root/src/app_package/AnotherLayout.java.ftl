@@ -4,12 +4,15 @@ import android.os.Bundle;
 
 import ${packageName}.modelview.AnotherModelView;
 
-import inair.app.IABaseLayeredItem;
+import inair.app.IABaseLayeredItemLayout;
 
 /**
- * Created by Synyster on 6/6/14.
+ * This is another layout of application
+ * Should be used to handle all controller events on it's content view
+ *
+ * <p>Copyright (c) 2014 SeeSpace.co. All rights reserved.</p>
  */
-public class AnotherLayout extends IABaseLayeredItem {
+public class AnotherLayout extends IABaseLayeredItemLayout {
   AnotherModelView anotherModelView;
   @Override
   public void onInitialize(Bundle savedInstanceState) {

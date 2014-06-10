@@ -8,11 +8,11 @@
     ui:height="200.0"
     ui:width="400.0"
     ui:text="Hello World!"
-    ui:textColor="@color/green"
-    ui:textSize="50.0"
+    ui:textColor="@color/white"
+    ui:textSize="100.0"
     ui:alpha="1.0"
-    ui:positionX="960.0"
-    ui:positionY="340.0"
+    ui:positionX="1280.0"
+    ui:positionY="450.0"
     ui:positionZ="0.0"/>
 
 </UIViewGroup>

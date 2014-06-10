@@ -2,7 +2,7 @@ package ${packageName};
 
 import android.os.Bundle;
 
-import inair.app.IABaseLayout;
+import inair.app.IABaseRootLayout;
 
 /**
  * Main layout of application
@@ -10,7 +10,7 @@ import inair.app.IABaseLayout;
  *
  * <p>Copyright (c) 2014 SeeSpace.co. All rights reserved.</p>
  */
-public class ${activityClass} extends IABaseLayout {
+public class ${activityClass} extends IABaseRootLayout {
 
   @Override
   public void onInitialize(Bundle savedInstanceState) {

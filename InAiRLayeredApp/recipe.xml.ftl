@@ -23,17 +23,16 @@
     <instantiate from="src/app_package/modelview/MainModelView.java.ftl" to="${escapeXmlAttribute(srcOut)}/modelview/MainModelView.java" />
     <instantiate from="src/app_package/modelview/AnotherModelView.java.ftl" to="${escapeXmlAttribute(srcOut)}/modelview/AnotherModelView.java" />
 
-    <instantiate from="src/app_package/LayeredNavigation.java.ftl"
-                   to="${escapeXmlAttribute(srcOut)}/LayeredNavigation.java" />
+    <instantiate from="src/app_package/LayeredNavigationLayout.java.ftl"
+                   to="${escapeXmlAttribute(srcOut)}/LayeredNavigationLayout.java" />
     <instantiate from="src/app_package/MainLayout.java.ftl"
                    to="${escapeXmlAttribute(srcOut)}/MainLayout.java" />
     <instantiate from="src/app_package/AnotherLayout.java.ftl"
                    to="${escapeXmlAttribute(srcOut)}/AnotherLayout.java" />
-
+    <instantiate from="src/app_package/RootLayout.java.ftl"
+                   to="${escapeXmlAttribute(srcOut)}/RootLayout.java" />
 
     <instantiate from="src/app_package/Application.java.ftl" to="${escapeXmlAttribute(srcOut)}/Application.java" />
-
-    <open file="${escapeXmlAttribute(srcOut)}/LayeredNavigation.java" />
 
     <open file="${escapeXmlAttribute(resOut)}/layout/main_layout.xml" />
 
