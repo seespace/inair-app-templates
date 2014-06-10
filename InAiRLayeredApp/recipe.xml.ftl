@@ -12,6 +12,14 @@
 
     <copy from="res/drawable"
             to="${escapeXmlAttribute(resOut)}/drawable" />
+    <copy from="res/drawable-hdpi"
+            to="${escapeXmlAttribute(resOut)}/drawable-hdpi" />
+    <copy from="res/drawable-mdpi"
+            to="${escapeXmlAttribute(resOut)}/drawable-mdpi" />
+    <copy from="res/drawable-xhdpi"
+            to="${escapeXmlAttribute(resOut)}/drawable-xhdpi" />
+    <copy from="res/drawable-xxhdpi"
+            to="${escapeXmlAttribute(resOut)}/drawable-xxhdpi" />
 
     <copy from="libs/inAiR.aar"
             to="libs/inAiR.aar" />
