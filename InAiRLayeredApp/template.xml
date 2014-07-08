@@ -8,51 +8,7 @@
     description="InAir App using the Layered Navigation">
 
     <category value="Activity" />
-
-    <!-- <parameter
-        id="prefixName"
-        name="Class Prefix"
-        type="string"
-        constraints="class|unique|nonempty"
-        suggest="${moduleName}"
-        default="Main"
-        help="The name of the activity class to create" />
-
-    <parameter
-        id="activityClass"
-        name="Activity Name"
-        type="string"
-        constraints="class|unique|nonempty"
-        suggest="${extractLetters(prefixName)}Layout"
-        default="MainLayout"
-        help="The name of the activity class to create" />
-
-    <parameter
-        id="layoutName"
-        name="Layout Name"
-        type="string"
-        constraints="layout|unique|nonempty"
-        suggest="${camelCaseToUnderscore(prefixName)}_layout"
-        default="main_layout"
-        help="The name of the layout to create for the activity" />
-
-    <parameter
-        id="modelViewClass"
-        name="Model View Name"
-        type="string"
-        constraints="class|unique|nonempty"
-        suggest="${extractLetters(prefixName)}ModelView"
-        default="MainModelView"
-        help="The name of the activity class to create" />
-
-    <parameter
-        id="activityTitle"
-        name="Title"
-        type="string"
-        constraints="nonempty"
-        default="MainActivity"
-        suggest="${activityClass}"
-        help="The name of the activity. For launcher activities, the application title." /> -->
+    <formfactor value="Mobile" />
 
     <parameter
         id="isLauncher"
@@ -67,6 +23,8 @@
         type="string"
         constraints="package"
         default="com.mycompany.myapp" />
+
+    
 
     <!-- 128x128 thumbnails relative to template.xml -->
     <thumbs>

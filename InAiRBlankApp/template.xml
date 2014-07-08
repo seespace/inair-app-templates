@@ -8,6 +8,7 @@
     description="Creates a blank inair application">
 
     <category value="Activity" />
+    <formfactor value="Mobile" />
 
     <parameter
         id="prefixName"
@@ -61,12 +62,7 @@
         default="false"
         help="If true, this activity will have a CATEGORY_LAUNCHER intent filter, making it visible in the launcher" />
 
-    <parameter
-        id="packageName"
-        name="Package name"
-        type="string"
-        constraints="package"
-        default="com.mycompany.myapp" />
+    
 
     <!-- 128x128 thumbnails relative to template.xml -->
     <thumbs>

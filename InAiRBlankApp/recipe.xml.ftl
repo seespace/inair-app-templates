@@ -12,10 +12,10 @@
             to="${escapeXmlAttribute(resOut)}/drawable" />
 
     <copy from="libs/inAiR.aar"
-            to="libs/inAiR.aar" />
+            to="${escapeXmlAttribute(projectOut)}/libs/inAiR.aar" />
 
     <copy from="build.gradle.ftl"
-          to="build.gradle" />
+          to="${escapeXmlAttribute(projectOut)}/build.gradle" />
     
     <mkdir at="${escapeXmlAttribute(srcOut)}/modelview/"/>
     <instantiate from="src/app_package/modelview/MainViewModel.java.ftl" to="${escapeXmlAttribute(srcOut)}/modelview/${modelViewClass}.java" />
