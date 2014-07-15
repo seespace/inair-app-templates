@@ -3,8 +3,8 @@ package ${packageName}.view;
 import android.os.Bundle;
 
 import inair.app.IARootLayout;
-import tv.inair.myapplication.Application;
-import tv.inair.myapplication.R;
+import ${packageName}.Application;
+import ${packageName}.R;
 
 public class RootLayout extends IARootLayout {
   @Override
