@@ -17,13 +17,13 @@
     <copy from="res/drawable"
             to="${escapeXmlAttribute(resOut)}/drawable" />
     <copy from="res/drawable/ic_launcher.png"
-            to="${escapeXmlAttribute(resOut)}/drawable-hdpi" />
+            to="${escapeXmlAttribute(resOut)}/drawable-hdpi/ic_launcher.png" />
     <copy from="res/drawable/ic_launcher.png"
-            to="${escapeXmlAttribute(resOut)}/drawable-mdpi" />
+            to="${escapeXmlAttribute(resOut)}/drawable-mdpi/ic_launcher.png" />
     <copy from="res/drawable/ic_launcher.png"
-            to="${escapeXmlAttribute(resOut)}/drawable-xhdpi" />
+            to="${escapeXmlAttribute(resOut)}/drawable-xhdpi/ic_launcher.png" />
     <copy from="res/drawable/ic_launcher.png"
-            to="${escapeXmlAttribute(resOut)}/drawable-xxhdpi" />
+            to="${escapeXmlAttribute(resOut)}/drawable-xxhdpi/ic_launcher.png" />
 
     <copy from="libs/inAiR.aar"
             to="${escapeXmlAttribute(projectOut)}/libs/inAiR.aar" />
