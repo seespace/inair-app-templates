@@ -15,7 +15,7 @@
         name="Class Prefix"
         type="string"
         constraints="class|unique|nonempty"
-        suggest="${moduleName}"
+        suggest=""
         default="Main"
         help="The name of the activity class to create" />
 
@@ -38,12 +38,12 @@
         help="The name of the layout to create for the activity" />
 
     <parameter
-        id="modelViewClass"
-        name="Model View Name"
+        id="viewModelClass"
+        name="View Model Name"
         type="string"
         constraints="class|unique|nonempty"
-        suggest="${extractLetters(prefixName)}ModelView"
-        default="MainModelView"
+        suggest="${extractLetters(prefixName)}ViewModel"
+        default="MainViewModel"
         help="The name of the activity class to create" />
 
     <parameter

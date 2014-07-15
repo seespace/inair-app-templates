@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MultiDataTemplate xmlns:ui="http://schemas.android.com/apk/res-auto">
+
+    <DataTemplate
+        ui:templateId="@layout/first_layout"
+        ui:templateTag="firstlayer"/>
+    <DataTemplate
+        ui:templateId="@layout/second_layout"
+        ui:templateTag="secondlayer"/>
+
+</MultiDataTemplate>

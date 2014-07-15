@@ -3,10 +3,8 @@
     <merge from="res/values/strings.xml.ftl"
              to="${escapeXmlAttribute(resOut)}/values/strings.xml" />
 
-
     <instantiate from="res/layout/main_layout.xml"
             to="${escapeXmlAttribute(resOut)}/layout/${layoutName}.xml" />
-
 
     <copy from="res/drawable"
             to="${escapeXmlAttribute(resOut)}/drawable" />
@@ -16,12 +14,12 @@
 
     <copy from="build.gradle.ftl"
           to="${escapeXmlAttribute(projectOut)}/build.gradle" />
-    
-    <mkdir at="${escapeXmlAttribute(srcOut)}/modelview/"/>
-    <instantiate from="src/app_package/modelview/MainViewModel.java.ftl" to="${escapeXmlAttribute(srcOut)}/modelview/${modelViewClass}.java" />
 
-    <instantiate from="src/app_package/MainLayout.java.ftl"
-                   to="${escapeXmlAttribute(srcOut)}/${activityClass}.java" />
+    <mkdir at="${escapeXmlAttribute(srcOut)}/view/" />
+    <instantiate from="src/app_package/view/RootLayout.java.ftl" to="${escapeXmlAttribute(srcOut)}/view/${activityClass}.java" />
+    
+    <mkdir at="${escapeXmlAttribute(srcOut)}/viewmodel/"/>
+    <instantiate from="src/app_package/viewmodel/MainViewModel.java.ftl" to="${escapeXmlAttribute(srcOut)}/viewmodel/${viewModelClass}.java" />
 
     <instantiate from="src/app_package/Application.java.ftl" to="${escapeXmlAttribute(srcOut)}/Application.java" />
 
