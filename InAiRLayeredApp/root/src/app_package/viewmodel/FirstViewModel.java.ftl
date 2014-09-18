@@ -22,4 +22,12 @@ public class FirstViewModel extends ViewModel implements LayeredItemViewData, It
   public CharSequence getTag() {
     return "firstlayer";
   }
+
+  @Override
+  public void setUp() {
+  }
+
+  @Override
+  public void tearDown() {
+  }
 }

@@ -47,7 +47,7 @@
 
     <!-- <copy from="BaseManifest.xml.ftl"
           to="${escapeXmlAttribute(manifestOut)}/AndroidManifest.xml" /> -->
-          
+
     <instantiate from="AndroidManifest.xml.ftl"
                 to="${escapeXmlAttribute(manifestOut)}/AndroidManifest.xml" />
 

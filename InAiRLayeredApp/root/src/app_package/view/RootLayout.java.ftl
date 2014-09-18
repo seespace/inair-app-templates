@@ -3,12 +3,14 @@ package ${packageName}.view;
 import android.os.Bundle;
 
 import inair.app.IARootLayout;
-import ${packageName}.Application;
-import ${packageName}.R;
+import inair.view.UILayeredNavigationView;
 
 public class RootLayout extends IARootLayout {
   @Override
   public void onInitialize(Bundle savedInstanceState) {
-    setAndBindRootContentView(R.layout.layered_navigation, Application.mainViewModel);
+    setRootContentView(new UILayeredNavigationView(this));
+
+    addChildLayout(new FirstLayout());
+    addChildLayout(new SecondLayout());
   }
 }

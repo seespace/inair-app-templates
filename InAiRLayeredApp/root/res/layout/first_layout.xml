@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<UIViewGroup xmlns:ui="http://schemas.android.com/apk/res-auto">
+<UILayeredViewItem xmlns:ui="http://schemas.android.com/apk/res-auto">
 
-    <UIImageView
-        ui:width="310"
-        ui:height="248"
-        ui:positionX="0"
-        ui:positionY="100"
-        ui:src="@drawable/logohi" />
+    <UIViewGroup>
 
-    <UITextView
-        ui:width="310"
-        ui:positionX="0"
-        ui:positionY="400"
-        ui:text="InAiR - This is the first layer with static content"
-        ui:textSize="40" />
+        <UIImageView
+            ui:width="310"
+            ui:height="248"
+            ui:positionX="0"
+            ui:positionY="100"
+            ui:src="@drawable/logohi" />
 
-</UIViewGroup>
+        <UITextView
+            ui:width="310"
+            ui:positionX="0"
+            ui:positionY="400"
+            ui:text="InAiR - This is the first layer with static content"
+            ui:fontSize="40" />
+
+    </UIViewGroup>
+
+</UILayeredViewItem>

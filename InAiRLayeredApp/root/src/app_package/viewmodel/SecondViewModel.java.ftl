@@ -1,6 +1,5 @@
 package ${packageName}.viewmodel;
 
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 
 import inair.data.ItemViewData;
@@ -46,5 +45,13 @@ public class SecondViewModel extends ViewModel implements LayeredItemViewData, I
   @Override
   public CharSequence getTag() {
     return "secondlayer";
+  }
+
+  @Override
+  public void setUp() {
+  }
+
+  @Override
+  public void tearDown() {
   }
 }

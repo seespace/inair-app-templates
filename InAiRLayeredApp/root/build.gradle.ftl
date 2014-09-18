@@ -2,11 +2,11 @@ apply plugin: 'android'
 
 android {
   compileSdkVersion 19
-  buildToolsVersion '19.1.0'
+  buildToolsVersion '20.0.0'
 
   compileOptions {
-    sourceCompatibility JavaVersion.VERSION_1_6
-    targetCompatibility JavaVersion.VERSION_1_6
+    sourceCompatibility JavaVersion.VERSION_1_7
+    targetCompatibility JavaVersion.VERSION_1_7
   }
 
   defaultConfig {
